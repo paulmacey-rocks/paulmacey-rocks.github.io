@@ -40,3 +40,12 @@ svg {
     font-family: 'Comic Sans Ms';
     font-size: 3em;
 }
+
+marquee {
+  position: absolute;
+  bottom: 150px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  font-family: arial;
+}
