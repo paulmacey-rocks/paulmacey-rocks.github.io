@@ -24,3 +24,13 @@ svg {
 .logo {
   fill: #fff;
 }
+#titleText {
+    color: #fff;
+    display: block;
+    left: auto;
+    right: auto;
+    position: absolute;
+    top: 50%;
+    font-family: 'Comic Sans Ms';
+    font-size: 3em;
+}
