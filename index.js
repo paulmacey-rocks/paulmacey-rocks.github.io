@@ -86,7 +86,7 @@ function canvasSupport (e) {
 
 }
 function canvasApp () {
-  var canvas = document.getElementById('myCanvas');
+  var canvas = document.getElementById('matrix');
 
   if (!canvasSupport(myCanvas)) {
 	  return; 
