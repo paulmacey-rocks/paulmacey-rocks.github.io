@@ -40,3 +40,8 @@ svg {
     font-family: 'Comic Sans Ms';
     font-size: 3em;
 }
+#slide {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
