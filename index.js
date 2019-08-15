@@ -55,7 +55,7 @@
 				move.down();
 			}
 
-      // Make that shit responsive!
+      // Make it responsive!
       $(window).resize( function() {
         getSizes();
       });
@@ -65,12 +65,11 @@
 
 $(document).ready( function() {
 
-	$('.marquee').marqueeify({
+	$('.marquee1').marqueeify({
 		speed: 300,
-		bumpEdge: function () {
-			var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
-			$('.marquee .logo').css('fill', newColor);
-		}
+	});
+	$('.marquee2').marqueeify({
+		speed: 300,
 	});
 });
 
