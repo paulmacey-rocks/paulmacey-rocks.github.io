@@ -84,3 +84,14 @@ marquee {
     position: absolute;
     width: 400px;
 }
+
+@media screen and ( max-screen: 500px ) {
+  body {
+    max-height: calc( 100vh - 150px );
+  }
+
+  #paulPoint {
+    top: 400px;
+    right: 250px;
+  }
+}
