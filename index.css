@@ -15,7 +15,25 @@ body {
 
 iframe {
   position: absolute;
+  z-index: 100;
+}
+
+.ad, .amzn_wdgt {
+  position: absolute;
   z-index: 1000;
+}
+
+.amzn_wdgt {
+  top: 0;
+  right: 0;
+}
+
+.ad-left {
+  left: 0;
+}
+
+.ad-top {
+  bottom: 0;
 }
 
 .marquee {
@@ -23,6 +41,7 @@ iframe {
   left: 0;
   position: absolute;
   top: 0;
+  z-index: 9999;
 }
 svg {
   display: block;
@@ -37,7 +56,7 @@ svg {
     right: auto;
     position: absolute;
     top: 50%;
-    font-family: 'Comic Sans Ms';
+    font-family: 'Righteous', cursive;
     font-size: 3em;
 }
 
@@ -48,4 +67,16 @@ marquee {
   color: white;
   font-size: 18px;
   font-family: arial;
+}
+
+#slide {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#paulPoint {
+    right: 120px;
+    top: 100px;
+    position: absolute;
+    width: 400px;
 }
