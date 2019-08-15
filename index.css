@@ -18,6 +18,24 @@ iframe {
   z-index: 100;
 }
 
+.ad, .amzn_wdgt {
+  position: absolute;
+  z-index: 1000;
+}
+
+.amzn_wdgt {
+  top: 0;
+  right: 0;
+}
+
+.ad-left {
+  left: 0;
+}
+
+.ad-top {
+  bottom: 0;
+}
+
 .marquee {
   display: block;
   left: 0;
