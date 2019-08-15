@@ -18,6 +18,10 @@ iframe {
   z-index: 100;
 }
 
+.rave-video {
+  left: 160px;
+}
+
 .ad, .amzn_wdgt {
   position: absolute;
   z-index: 1000;
