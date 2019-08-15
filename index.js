@@ -65,17 +65,11 @@
 
 $(document).ready( function() {
 
-	$('.marquee1').marqueeify({
+	$('.marquee').marqueeify({
 		speed: 300,
 		bumpEdge: function () {
 			var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
-			$('.marquee1 .logo').css('fill', newColor);
-	});
-	$('.marquee2').marqueeify({
-		speed: 300,
-		bumpEdge: function () {
-			var newColor = "hsl(" + Math.floor(Math.random()*360) + ", 100%, 50%)";
-			$('.marquee2 .logo').css('fill', newColor);
+			$('.marquee .logo').css('fill', newColor);
 	});
 });
 
